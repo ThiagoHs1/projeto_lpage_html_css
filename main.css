@@ -9,7 +9,7 @@ header {
   background-color: #1e90ff;
   color: white;
   padding: 20px;
-	height: 70px; /* altura reduzida */
+	height: 70px; 
 
 }
 
@@ -89,6 +89,7 @@ section p {
   margin-right: 32px;
 }
 
+/* Seção Formulario */
 
 .form-container {
 	background-color: #f2f2f2;
@@ -153,6 +154,7 @@ margin-right: 8px;
 .social-links img {
   height: 30px  ;
 }
+/* Seção Footer */
 
 footer {
   background-color: #007bff;
