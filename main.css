@@ -1,0 +1,167 @@
+/* Estilos gerais */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Cabeçalho */
+header {
+  background-color: #1e90ff;
+  color: white;
+  padding: 20px;
+	height: 70px; /* altura reduzida */
+
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+header, section h2, section h3 {
+  color: #1e90ff;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+section h2, section h3 {
+  font-size: 1.5rem;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  font-size: 18px;
+  margin-left: 16px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #add8e6;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Seção sobre */
+header .container, section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section {
+  padding:  24px 0 ;
+}
+
+section .container {
+  align-items: flex-start;
+}
+
+
+section h2 {
+font-weight: normal;
+  margin-bottom: 16px;
+}
+
+section p {
+  margin-bottom: 8px;
+}
+
+.img-produto{
+  margin-right: 32px;
+}
+
+
+.form-container {
+	background-color: #f2f2f2;
+	padding: 50px;
+	text-align: center;
+}
+
+
+form {
+	display: block;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+
+
+input,
+textarea {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+  resize: none;
+  
+	width: 100%;
+}
+
+input:focus, textarea:focus {
+  outline-color: #0056b3;
+}
+
+button[type="submit"] {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 30px;
+	font-size: 1.2rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+	background-color: #0056b3;
+  
+}
+.social-links li {
+display: inline;
+text-decoration: none;
+text-align: center;
+margin-right: 8px;
+
+}
+
+
+.social-links img {
+  height: 30px  ;
+}
+
+footer {
+  background-color: #007bff;
+  color: white;
+  padding: 16px 0;
+}
+
+
+.rodape-info {
+ display: flex;
+ justify-content: space-between;
+}
